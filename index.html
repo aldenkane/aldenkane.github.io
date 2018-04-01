@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Metas Page details-->
+<title>Alden Kane</title>
+<meta name="description" content="About Alden Kane: Online Website and Resume">
+<meta name="author" content="Alden E. Kane">
+<!-- Mobile Specific Metas-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--main style-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+<!--google font style-->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!--font-family: 'Metrophobic', serif;-->
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
+<!--font-family: 'Open Sans', sans-serif;-->
+<!-- font icon css style-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body onLoad="load()" onUnload="GUnload()">
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status"></div>
+</div>
+<!--wrapper start-->
+<div class="wrapper noGap" id="wrapper">
+
+<!--Header start -->
+<header>
+  	<!--menu start-->
+    <div class="menu">
+    <a href="#" class="nav-icon" id="nav-show"><i class="fa fa-bars"></i></a>
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+              	<!--<div class="logo">logo</div> -->
+                <div class="navArea"><a href="#" class="closeMenu"><i class="fa fa-times"></i></a>
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                     <a class="navbar-brand" href="#">Menu</a>  </div>
+                     <div class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="menuItem active"><a href="#wrapper">Home</a></li>
+                        <li class="menuItem"><a href="#aboutus">About Me</a></li>
+												<li class="menuItem"><a href="#ourwork">Portfolio</a></li>
+                        <li class="menuItem"><a href="#skillset">Skills</a></li>
+                        <li class="menuItem"><a href="#experience">Experience</a></li>
+                        <li class="menuItem"><a href="#education">Education</a></li>
+                        <li class="menuItem"><a href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Navbar -->
+        </div>
+      </div>
+    </div>
+    <!--menu end-->
+    <!--banner start-->
+    <div class="banner row" id="banner">
+    <div class="bannerText">
+        <h1>Alden Kane</h1>
+				<h3>University of Notre Dame '20<h3>
+    </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+        <!--background slide show start-->
+        <div class="slide">
+          <img src="images/header-image/image01.png" alt="image01"> </div>
+        <div class="slide">
+          <img src="images/header-image/image02.jpg" alt="image01"> </div>
+        <!--background slide show end-->
+      </div>
+    </div>
+    <!--banner end-->
+
+  </header>
+  <!--Header end -->
+
+ <!--about us start-->
+  <section class="aboutus" id="aboutus">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12">
+      	<div class="heading">
+        <h2>About me</h2>
+        <h3>A quick intro</h3>
+      </div>
+      </div>
+       </div>
+      <div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media"><img src="images/KaneAlden.jpg" alt=""></div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
+        	<h5>Alden Kane</h5>
+            <h4>Electrical Engineering Student &amp; Tinkerer from Michigan</h4>
+            <p>I am currently an Electrical Engineering undergraduate student at the University of Notre Dame with internship experience in the automotive industry at the Tier 1 supplier and OEM level. My professional and technical interests include circuit design, autonomous vehicles, modern physics, and computer programming. I possess proficiency or a working knowledge in C, C++, Python, and Verilog. </p>
+						<p>My personal interests include snowboarding, golf, piano, squash, fitness, <i>Jeopardy!</i>, and DIY Home Improvement Projects. I enjoy travel and recent destinations include Peru, California, and Spain. </p>
+						<p><a role="button" class="btn btn-primary btn-lg">Download Printable Resume</a></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--about us end-->
+
+	<!--portfolio start-->
+	<section class="protfolio" id="ourwork">
+    <div class="container">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <h3>Projects that I have Worked on</h3>
+        </div>
+    </div>
+    <div class="row">
+      <div class="portfolioFilter">
+        <ul>
+          <li><a href="#" data-filter="*" class="current">All</a></li>
+          <li><a href="#" data-filter=".academicresearch">Academic Research</a></li>
+          <li><a href="#" data-filter=".classprojects">Class Projects</a></li>
+          <li><a href="#" data-filter=".graphicdesign">Graphic Design</a></li>
+					<li><a href="#" data-filter=".other">Other</a></li>
+        </ul>
+      </div>
+      <ul class="portfolioContainer row">
+      <li class="template col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/1.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-plus fa-2x"></i></a> </span> </span> <img src="images/projects/thumb-images/thumb1.jpg" alt="" > </div>
+        </li>
+        <li class="template wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb2.jpg" alt="" > </div>
+        </li>
+        <li class="wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb3.jpg" alt="" > </div>
+        </li>
+        <li class="webdesign wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb4.jpg" alt="" > </div>
+        </li>
+        <li class="wordpress template col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb5.jpg" alt="" > </div>
+        </li>
+        <li class="template webdesign illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb6.jpg" alt="" > </div>
+        </li>
+        <li class="wordpress template col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb7.jpg" alt="" > </div>
+        </li>
+        <li class="template webdesign illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb8.jpg" alt="" > </div>
+        </li>
+        <li class="template col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/9.jpg" title="Project Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb9.jpg" alt=""  > </div>
+        </li>
+        <li class="template wordpress col-xs-6 col-sm-3 col-md-4 col-lg-4">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/10.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb10.jpg" alt="" > </div>
+        </li>
+        <li class="wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/11.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb11.jpg" alt="" > </div>
+        </li>
+        <li class="template wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/12.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb12.jpg" alt="" > </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--portfolio end-->
+
+  <!--Skillset start -->
+  <section id="skillset" class="skillset">
+  	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+               <div class="heading">
+                <h2>Skills &amp; Expertise</h2>
+                <h3>Things that I think I know how to do</h3>
+              </div>
+            </div>
+            <div class="col-md-12">
+            	<div class="col-md-6 col-sm-12 media">
+                	<p>I am continually working to become a more experienced and proficient engineer. I do this through internships, coursework, course projects, self-study, attending guest lectures in engineering, computing and physics at Notre Dame, hobby programming, and interaction with bright minds. At the moment, my top four procifiencies are as listed at right.</p>
+                </div>
+            	<div class="col-md-6 col-sm-12">
+                <div class="skillbar clearfix " data-percent="88%">
+                    <div class="skillbar-title"><span>Problem Solving</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="58%">
+                    <div class="skillbar-title"><span>C/C++</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="55%">
+                    <div class="skillbar-title"><span>MATLAB</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+
+                <div class="skillbar clearfix " data-percent="39%">
+                    <div class="skillbar-title"><span>Circuit Design</span></div>
+                    <div class="skillbar-bar"></div>
+                    <div class="skill-bar-percent"></div>
+                </div> <!-- End Skill Bar -->
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Skillset end -->
+  <!--Work Experties start -->
+  <section id="experience" class="myexperties">
+  	<div class="container">
+        <div class="heading">
+        <h2>Work Experience</h2>
+        <h3>Previous, Current, and Future Engagements</h3>
+      </div>
+
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	May 2018<br>August 2018
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>FCA US LLC</h4>
+                <h5>Product Development Intern | Uconnect Engineering Group</h5>
+                <p>I will be working at the Chrysler Technology Center in Auburn Hills, MI on FCA's Uconnect Engineering Group. The Uconnect Engineering Group is responsible for phone-car connectivity, Apple CarPlay and Android Auto, and other aspects of the vehicle infotainment system.</p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	May 2017<br>August 2017
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>American Axle &amp; Manufacturing, Inc.</h4>
+                <h5>Product Engineering Intern | Mechatronics &amp; Electronic Control Systems</h5>
+                <p>I worked at AAM's Mechatronics Technical Center on hardware development, data analysis, hardware validation, and software validation for actuation systems on the FCA CUSW, JLR x590, Ford C2, GM D2Uc, GM 9BUx, and GM E2UL platforms. My responsibilities included assessing hardware durability and functionality through actuator teardowns after design validation, production validation,
+									and vehicle testing from development mules, pre-production vehicles, and integrated vehicle engineering releases (IVERs) as well as analyzing data in MATLAB, CANape, CANoe, and Excel to investigate actuator performance. In my time at AAM, I self-started and wrote a VBA utility in Excel to automate the process of uploading photographs of acuator teardowns.</p>
+            </div>
+        </div>
+  </section>
+  <!--Work Experties end -->
+  <!--Education & diploma start -->
+  <section id="education" class="educationdiploma">
+  	<div class="container">
+        <div class="heading">
+        <h2>Education &amp; Diplomas</h2>
+        <h3>Where I've Studied</h3>
+      </div>
+
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	August 2016<br>May 2020
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Bachelor of Science in Electrical Engineering (Anticipated)</h4>
+                <h5>University of Notre Dame</h5>
+              	<p>3.77/4.00 GPA with a spot on the Dean's List in Fall 2017 and Spring 2017.  Relevant coursework includes: Electronics, Circuit Analysis II, Circuit Analysis I, Logic Design, Modern Physics, C/C++ Programming, Introduction to Electrical Engineering, Introduction to Engineering II (MATLAB), Introduction to Engineering I (Design)</p>
+            </div>
+        </div>
+        <div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	August 2012<br>May 2016
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>High School Diploma</h4>
+                <h5>University of Detroit Jesuit High School and Academy</h5>
+                <p>4.16/4.00 GPA with honor of being Class Co-Valedictorian.  Participated in STEM Research & Inquiry.  MHSAA All-State Swimmer and Captain of Varsity Swim &amp; Drive.</p>
+            </div>
+        </div>
+				<div class="row media">
+        	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            	<div class="expertiesico">
+                	January 2015<br>August 2015
+                </div>
+            </div>
+        	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
+            	<h4>Engineering Pre-Collegiate Research</h4>
+                <h5>University of Detroit Mercy</h5>
+                <p>I successfully completed an engineering design capstone project under Dr. Darrell Kleinke at the University of Detroit Mercy. I worked on designing a wheelchair-adaptive stroller for a paraplegic mother from the Metro Detroit area. The project has been covered on <A href="https://www.today.com/parents/mom-takes-baby-walks-special-wheelchair-stroller-t47011">The Today Show</A> </p>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--Education & diploma end -->
+  <!--contact start-->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="heading">
+        <h2>Get In Touch</h2>
+        <h3>Email: alden.e.kane@gmail.com</h3>
+				<h3>Address: 237 Stanford Hall, Notre Dame, Indiana 46556</h3>
+      </div>
+    </div>
+  </section>
+  <!--contact end-->
+
+  <!--footer start-->
+  <section class="footer" id="footer">
+    <div class="container">
+      <ul>
+        <li><a href="www.linkedin.com/in/alden-kane-a46265111"><i class="fa fa-linkedin fa-2x"></i></a></li>
+				<li><a href="https://github.com/aldenkane"><i class="fa fa-github fa-2x"></i></a></li>
+      </ul>
+    </div>
+    <p class="text-center"><a href="#wrapper" class="gototop"><i class="fa fa-chevron-up fa-2"></i></a></p>
+  </section>
+  <!--footer end-->
+  </div>
+<!--wrapper end-->
+
+<!--modernizr js-->
+<script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
+<!--jquary min js-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--for placeholder jquery-->
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+
+<!--for header jquery-->
+<script type="text/javascript" src="js/stickUp.js"></script>
+<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'aboutus',
+		  2: 'skillset',
+		  3: 'experience',
+		  4: 'education',
+		  5: 'ourwork',
+		  6: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	});
+
+
+});
+</script>
+<script>
+	$('#banner').superslides({
+	  animation: 'fade',
+	  play: 5000
+	});
+</script>
+
+<!--for portfolio jquery-->
+<script src="js/jquery.isotope.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+<link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
+<script src="js/jquery.easing.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script defer src="js/slideroption.js"></script>
+
+<!--for theme custom jquery-->
+<script src="js/custom.js"></script>
+
+</body>
+</html>
