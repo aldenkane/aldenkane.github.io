@@ -88,7 +88,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 h1{
 	font-family: 'Montserrat', sans-serif;
-	font-size:33px;
+	font-size:30px;
+	color:#372d38;
 	line-height:76px;
 	font-weight:400;
 	margin:0px;
