@@ -119,9 +119,12 @@
         <div class="heading">
             <h2>Portfolio</h2>
             <h3>Projects that I have Worked on</h3>
+						<h1>Currently under construction...<h1>
         </div>
     </div>
-    <div class="row">
+		<div class >
+		<!--ALDENKANE: PORTFOLIO SECTION UNDER CONSTRUCTION-->
+    <!--<div class="row">
       <div class="portfolioFilter">
         <ul>
           <li><a href="#" data-filter="*" class="current">All</a></li>
@@ -169,7 +172,8 @@
           <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/12.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb12.jpg" alt="" > </div>
         </li>
       </ul>
-    </div>
+    </div>-->
+		*/
   </section>
   <!--portfolio end-->
 
@@ -341,14 +345,15 @@
 jQuery(function($) {
 $(document).ready( function() {
   //enabling stickUp on the '.navbar-wrapper' class
+	//ALDENKANE: USE THIS TO GET PROPERLY INCREMENTING BLACK BOX IN STICKUP
 	$('.navbar-wrapper').stickUp({
 		parts: {
 		  0: 'banner',
 		  1: 'aboutus',
-		  2: 'skillset',
-		  3: 'experience',
-		  4: 'education',
-		  5: 'ourwork',
+			2: 'ourwork',
+		  3: 'skillset',
+		  4: 'experience',
+		  5: 'education',
 		  6: 'contact'
 		},
 		itemClass: 'menuItem',

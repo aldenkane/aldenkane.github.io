@@ -14,15 +14,13 @@
 	3. Header Part
 		3.1 Menu Style
 	4. About me Style
-	5. Skills Style
-	6. Experience Style
-	7. Education Style
-	8. Portfolio Style
+	5. Portfolio Style
+	6. Skills Style
+	7. Experience Style
+	8. Education Style
 	9. Contact Style
 	10.Footer Style
 	11.Responsive style
-
-
 --------------------------------------------------------------------------------/*
 
 /*----------------------------------------------------
@@ -464,130 +462,7 @@ header{
 }
 
 /*----------------------------------------------------
-	5. Skill & Expert Style
-------------------------------------------------------*/
-.skillset {
-	background:#fff;
-	display:table;
-	width:100%;
-}
-.skillset .container{
-	padding-top:66px ;
-	padding-bottom:64px ;
-}
-.skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:53px;
-	width:100%;
-	background:#e2e1e2;
-	height:7px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
-}
-
-.skillbar-title {
-	position:absolute;
-	top:-27px;
-	left:0;
-	font-weight:bold;
-	font-size:13px;
-	line-height:27px;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	color:#5b4c5c;
-}
-
-.skillbar-title span {
-	display:block;
-}
-
-.skillbar-bar {
-	height:7px;
-	width:0px;
-	background:#e88988;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	top:-24px;
-	font-size:14px;
-	color:#796f7a;
-	margin-left:-20px;
-}
-
-/*----------------------------------------------------
-	6. Work Experience Style
-------------------------------------------------------*/
-
-.myexperties {
-	background:#f8f8f8;
-}
-.myexperties .container{
-	padding-top:67px ;
-	padding-bottom:0 ;
-	margin-bottom:-20px;
-}
-.expertiesico {
-	padding:70px 63px 70px 0;
-	text-align:right;
-	font-family:'Crimson Text',serif;
-	font-size:21px;
-	line-height:24px;
-	color:#5b4c5c;
-	font-style:italic;
-}
-.expertiesdesc {
-	border-left:2px solid #ada5ad;
-	padding:0 0 0 69px;
-	margin-bottom:100px;
-}
-.expertiesdesc p {
-	padding-bottom:0;
-}
-.expertiesdesc h4 {
-	font-size:14px;
-	font-weight:300;
-	color:#UIzards;
-	line-height:normal;
-	text-transform:uppercase;
-	letter-spacing:2px;
-}
-.expertiesdesc h5 {
-	font-family: 'Crimson Text', serif;
-	color:#5b4c5c;
-	font-size:18px;
-	font-style:italic;
-	font-weight:400;
-}
-
-/*----------------------------------------------------
-	7. Education & Diplomas Style
-------------------------------------------------------*/
-
-.educationdiploma {
-	background:#fff;
-}
-.educationdiploma .container{
-	padding-top:65px ;
-	padding-bottom:0 ;
-	margin-bottom:-20px;
-}
-
-
-/*----------------------------------------------------
-	 8. Portfolio Style
+	5. Portfolio Style
 ------------------------------------------------------*/
 .protfolio{
 	background:#f8f8f8;
@@ -865,6 +740,130 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 #pbCloseBtn{
 	position:absolute !important;
 }
+
+/*----------------------------------------------------
+	6. Skill & Expert Style
+------------------------------------------------------*/
+.skillset {
+	background:#fff;
+	display:table;
+	width:100%;
+}
+.skillset .container{
+	padding-top:66px ;
+	padding-bottom:64px ;
+}
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:53px;
+	width:100%;
+	background:#e2e1e2;
+	height:7px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:-27px;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	line-height:27px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:#5b4c5c;
+}
+
+.skillbar-title span {
+	display:block;
+}
+
+.skillbar-bar {
+	height:7px;
+	width:0px;
+	background:#e88988;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	top:-24px;
+	font-size:14px;
+	color:#796f7a;
+	margin-left:-20px;
+}
+
+/*----------------------------------------------------
+	7. Work Experience Style
+------------------------------------------------------*/
+
+.myexperties {
+	background:#f8f8f8;
+}
+.myexperties .container{
+	padding-top:67px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+.expertiesico {
+	padding:70px 63px 70px 0;
+	text-align:right;
+	font-family:'Crimson Text',serif;
+	font-size:21px;
+	line-height:24px;
+	color:#5b4c5c;
+	font-style:italic;
+}
+.expertiesdesc {
+	border-left:2px solid #ada5ad;
+	padding:0 0 0 69px;
+	margin-bottom:100px;
+}
+.expertiesdesc p {
+	padding-bottom:0;
+}
+.expertiesdesc h4 {
+	font-size:14px;
+	font-weight:300;
+	color:#UIzards;
+	line-height:normal;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.expertiesdesc h5 {
+	font-family: 'Crimson Text', serif;
+	color:#5b4c5c;
+	font-size:18px;
+	font-style:italic;
+	font-weight:400;
+}
+
+/*----------------------------------------------------
+	8. Education & Diplomas Style
+------------------------------------------------------*/
+
+.educationdiploma {
+	background:#fff;
+}
+.educationdiploma .container{
+	padding-top:65px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+
+
 
 /*----------------------------------------------------
 	9. Contact Style

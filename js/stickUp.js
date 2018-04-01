@@ -67,6 +67,7 @@ function($) {
 		}
 		$(document).on('scroll', function() {
 			varscroll = parseInt($(document).scrollTop());
+			//INCREMENTING NAVBAR BLACK BOX
 			if(menuSize != null){
 				for(var i=0;i < menuSize;i++)
 				{
@@ -118,5 +119,4 @@ function($) {
 
 		});
 	});
-
 });
