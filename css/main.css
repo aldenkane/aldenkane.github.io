@@ -439,9 +439,16 @@ header{
 	display:block;
 	border:1px solid #bab4bb;
 }
+
+.aboutus iframe {
+	padding:7px;
+	display:block;
+	border:1px solid #bab4bb;
+}
 .aboutus .heading p{
 	padding-bottom:41px;
 }
+
 .aboutus h4 {
 	font-size:16px;
 	color:#5b4c5c;
@@ -507,7 +514,7 @@ header{
 	margin:0 -2px;
 	position:relative;
 }
-.portfolioFilter ul li:after {
+	.portfolioFilter ul li:after {
 	content:"";
 	display:block;
 	width:1px;
@@ -518,7 +525,7 @@ header{
 	top:50%;
 	margin-top:-5px;
 }
-.portfolioFilter ul li.last:after {
+	.portfolioFilter ul li.last:after {
 	background:#fff;
 }
 .portfolioFilter ul li a{
@@ -706,7 +713,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
     transition-property: transform, opacity;
 }
 
-
 .abc{
 	position: absolute;
 	width: 782px;
@@ -863,8 +869,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	padding-bottom:0 ;
 	margin-bottom:-20px;
 }
-
-
 
 /*----------------------------------------------------
 	9. Contact Style

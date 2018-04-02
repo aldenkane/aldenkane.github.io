@@ -1,20 +1,25 @@
+<!--Source code for aldenkane.com. HTML/CSS frame from http://www.free-css.com/template-categories/personal.
+    Author: Alden Kane-->
 <!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html class="no-js" lang="en">
+
 <head>
+
 <!-- Global site tag (gtag.js) - Google Analytics
 GOOGLE ANALYTICS BLOCK-->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116651512-1"></script>
+<!--END GOOGLE ANALYTICS BLOCK-->
+
+<!--SCRIPTS-->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-116651512-1');
 </script>
+<!--END SCRIPTS-->
 
+<!--PAGE INFO-->
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <!-- Metas Page details-->
@@ -33,7 +38,10 @@ GOOGLE ANALYTICS BLOCK-->
 <!--font-family: 'Open Sans', sans-serif;-->
 <!-- font icon css style-->
 <link rel="stylesheet" href="css/font-awesome.min.css">
+<!--END PAGE INFO-->
+
 </head>
+
 <body onLoad="load()" onUnload="GUnload()">
 <!-- Preloader -->
 <div id="preloader">
@@ -101,26 +109,36 @@ GOOGLE ANALYTICS BLOCK-->
 
  <!--about us start-->
   <section class="aboutus" id="aboutus">
+
     <div class="container">
+
       <div class="row">
-       <div class="col-md-12">
-      	<div class="heading">
-        <h2>About me</h2>
-        <h3>A quick intro</h3>
-      </div>
-      </div>
+        <div class="col-md-12">
+        	<div class="heading">
+          <h2>About me</h2>
+          <h3>A Quick Intro</h3>
+          </div>
+        </div>
        </div>
+
       <div class="row">
-      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media"><img src="images/KaneAlden.jpg" alt=""></div>
+      <!--Edit This to Adjust Size of Right/Left Media-->
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right media">
+        <!--HEADER PHOTO IF DESIRED
+        <img src="images/KaneAlden.jpg" alt="">-->
+        <!--YOUTUBE VIEO-->
+        <iframe width="370" height="240" src="https://www.youtube.com/embed/7E_m_17pBn4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
       	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left media">
         	<h5>Alden Kane</h5>
             <h4>Electrical Engineering Student &amp; Tinkerer from Michigan</h4>
-            <p>I am an Electrical Engineering undergraduate student at the University of Notre Dame with internship experience in the automotive industry at the Tier 1 supplier and OEM level. My professional and technical interests include circuit design, autonomous vehicles, modern physics, and computer programming. I possess proficiency or a working knowledge in C, C++, Python, and Verilog. </p>
+            <p>I am an Electrical Engineering undergraduate student at the University of Notre Dame with internship experience in the automotive industry at the Tier 1 supplier and OEM level. My professional and technical interests include circuit design, autonomous vehicles, modern physics, and computer programming. I possess proficiency or a working knowledge in C, C++, Python, and Verilog. Past projects of mine include the development of the Wheelchair-Stroller, a stroller that attaches to a wheelchair for the use of paraplegic parents.</p>
 						<p>My personal interests include snowboarding, swimming, water polo, golf, piano, squash, fitness, <i>Jeopardy!</i>, and DIY Home Improvement Projects. I enjoy travel and recent destinations include Peru, California, and Spain. </p>
 						<!--ALDENKANE: Button for Resume Download-->
 						<!--<p><a role="button" class="btn btn-primary btn-lg">Download Printable Resume</a></p>-->
         </div>
       </div>
+
     </div>
   </section>
   <!--about us end-->
@@ -134,57 +152,34 @@ GOOGLE ANALYTICS BLOCK-->
         </div>
     </div>
 		<div class >
-		<!--ALDENKANE: PORTFOLIO SECTION UNDER CONSTRUCTION
     <div class="row">
       <div class="portfolioFilter">
         <ul>
           <li><a href="#" data-filter="*" class="current">All</a></li>
-          <li><a href="#" data-filter=".academicresearch">Academic Research</a></li>
+          <li><a href="#" data-filter=".academicresearch">Academic Engagement</a></li>
           <li><a href="#" data-filter=".classprojects">Class Projects</a></li>
-          <li><a href="#" data-filter=".graphicdesign">Graphic Design</a></li>
-					<li><a href="#" data-filter=".other">Other</a></li>
+          <li class="last"><a href="#" data-filter=".other">Other</a></li>
         </ul>
       </div>
       <ul class="portfolioContainer row">
       <li class="template col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/1.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-plus fa-2x"></i></a> </span> </span> <img src="images/projects/thumb-images/thumb1.jpg" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/1.jpg" title="Verilog/Altera DE2 Video Game: Bomb Squad" class="zoom lb lb_warsaw1" data-filter=".classprojects"><i class="fa fa-plus fa-2x"></i></a> </span> </span> <img src="images/projects/thumb-images/thumb1.jpg" alt="" > </div>
         </li>
         <li class="template wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb2.jpg" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/2.jpg" title="Conway's Game of Life in C on Arduino" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb2.jpg" alt="" > </div>
         </li>
         <li class="wordpress illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/3.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb3.jpg" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/3.jpg" title="TriangleCare: An App for More Effective Connections in Elderly Care" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb3.jpg" alt="" > </div>
         </li>
         <li class="webdesign wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/4.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb4.jpg" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/4.jpg" title="Variable Projectile Launcher" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb4.jpg" alt="" > </div>
         </li>
         <li class="wordpress template col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/5.jpg" title="Project Title5" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb5.jpg" alt="" > </div>
-        </li>
-        <li class="template webdesign illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/6.jpg" title="Project Title6" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb6.jpg" alt="" > </div>
-        </li>
-        <li class="wordpress template col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/7.jpg" title="Project Title7" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb7.jpg" alt="" > </div>
-        </li>
-        <li class="template webdesign illustration col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/8.jpg" title="Project Title8" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb8.jpg" alt="" > </div>
-        </li>
-        <li class="template col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/9.jpg" title="Project Title1" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb9.jpg" alt=""  > </div>
-        </li>
-        <li class="template wordpress col-xs-6 col-sm-3 col-md-4 col-lg-4">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/10.jpg" title="Project Title2" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb10.jpg" alt="" > </div>
-        </li>
-        <li class="wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/11.jpg" title="Project Title3" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb11.jpg" alt="" > </div>
-        </li>
-        <li class="template wordpress col-xs-6 col-sm-4 col-md-3 col-lg-3">
-          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/12.jpg" title="Project Title4" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb12.jpg" alt="" > </div>
+          <div class="lightCon"> <span class="hoverBox"> <span class="smallIcon"> <a rel="lightbox-demo" href="images/projects/big-images/5.jpg" title="Wheelchair-Stroller: A Stroller for Wheelchair-Using Parents" class="zoom lb lb_warsaw1"><i class="fa fa-search fa-2x"></i></a>  </span> </span> <img src="images/projects/thumb-images/thumb5.jpg" alt="" > </div>
         </li>
       </ul>
     </div>
-		-->
+
   </section>
   <!--portfolio end-->
 
@@ -195,7 +190,7 @@ GOOGLE ANALYTICS BLOCK-->
         	<div class="col-md-12">
                <div class="heading">
                 <h2>Skills &amp; Expertise</h2>
-                <h3>Things that I think I know how to do</h3>
+                <h3>Things that I Think I Know how to do</h3>
               </div>
             </div>
             <div class="col-md-12">
@@ -232,7 +227,8 @@ GOOGLE ANALYTICS BLOCK-->
     </div>
   </section>
   <!--Skillset end -->
-  <!--Work Experties start -->
+
+  <!--Work Expertise start -->
   <section id="experience" class="myexperties">
   	<div class="container">
         <div class="heading">
@@ -282,9 +278,9 @@ GOOGLE ANALYTICS BLOCK-->
                 </div>
             </div>
         	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
-            	<h4>Bachelor of Science in Electrical Engineering (Anticipated)</h4>
+            	<h4>Bachelor of Science in Electrical Engineering</h4>
                 <h5>University of Notre Dame</h5>
-              	<p>3.77/4.00 GPA with a spot on the Dean's List in Fall 2017 and Spring 2017.  Relevant coursework includes: Electronics, Circuit Analysis II, Circuit Analysis I, Logic Design, Modern Physics, C/C++ Programming, Introduction to Electrical Engineering, Introduction to Engineering II (MATLAB), Introduction to Engineering I (Design)</p>
+              	<p>3.77/4.00 GPA with a spot on the Dean's List in Fall 2016 and Spring 2017.  Relevant coursework includes: Electronics, Circuit Analysis II, Circuit Analysis I, Logic Design, Modern Physics, C/C++ Programming, Introduction to Electrical Engineering, Introduction to Engineering II (MATLAB), Introduction to Engineering I (Design). Member of Formula SAE Hybrid Team, Club Water Polo Team, and Stanford Hall Government.</p>
             </div>
         </div>
         <div class="row media">
@@ -296,7 +292,7 @@ GOOGLE ANALYTICS BLOCK-->
         	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
             	<h4>High School Diploma</h4>
                 <h5>University of Detroit Jesuit High School and Academy</h5>
-                <p>4.16/4.00 GPA with honor of being Class Co-Valedictorian.  Participated in STEM Research &amp; Inquiry.  MHSAA All-State Swimmer and Captain of Varsity Swim &amp; Drive.</p>
+                <p>4.16/4.00 GPA with honor of being Class Co-Valedictorian.  Participated in STEM Research &amp; Inquiry.  MHSAA All-State Swimmer and Captain of Varsity Swim &amp; Dive.</p>
             </div>
         </div>
 				<div class="row media">
@@ -308,7 +304,7 @@ GOOGLE ANALYTICS BLOCK-->
         	<div class="expertiesdesc col-xs-12 col-sm-9 col-md-9 col-lg-9">
             	<h4>Engineering Pre-Collegiate Research</h4>
                 <h5>University of Detroit Mercy</h5>
-                <p>I successfully completed an engineering design capstone project under Dr. Darrell Kleinke at the University of Detroit Mercy. I worked on designing a wheelchair-adaptive stroller for a paraplegic mother from the Metro Detroit area. The project has been covered on <A href="https://www.today.com/parents/mom-takes-baby-walks-special-wheelchair-stroller-t47011">The Today Show</A> </p>
+                <p>I successfully completed an engineering design capstone project under Dr. Darrell Kleinke at the University of Detroit Mercy. I worked on designing a wheelchair-adaptive stroller for a paraplegic mother from the Metro Detroit area. The project has been covered nationally and internationally The Today Show, The Huffington Post, Fox2 News Detroit, and many others.</A> </p>
             </div>
         </div>
     </div>
@@ -318,9 +314,9 @@ GOOGLE ANALYTICS BLOCK-->
   <section class="contact" id="contact">
     <div class="container">
       <div class="heading">
-        <h2>Get In Touch</h2>
-        <h3>Email: alden.e.kane@gmail.com</h3>
-				<h3>Address: 237 Stanford Hall, Notre Dame, Indiana 46556</h3>
+        <h2>Contact</h2>
+        <h3>alden.e.kane@gmail.com</h3>
+				<h3>237 Stanford Hall, Notre Dame, Indiana 46556</h3>
       </div>
     </div>
   </section>
@@ -372,9 +368,8 @@ $(document).ready( function() {
 		topMargin: 'auto'
 		});
 	});
-
-
 });
+
 </script>
 <script>
 	$('#banner').superslides({
