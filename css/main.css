@@ -137,7 +137,7 @@ h5{
 }
 .heading{
 	text-align:center;
-	padding-bottom:70px;
+	padding-bottom: 30px;
 }
 .heading .container{
 	padding-top:0px !important;
@@ -470,346 +470,23 @@ header{
 }
 
 /*----------------------------------------------------
-	5. Portfolio Style
-------------------------------------------------------*/
-.protfolio{
-	background:#f8f8f8;
-	width:100%;
-	overflow:hidden;
-}
-.protfolio .container{
-	padding-top:67px ;
-	padding-bottom:0 ;
-}
-.protfolio .heading {
-	padding-bottom:50px;
-}
-.protfolio .protBox{
-	padding-top:0 ;
-	padding-bottom:0 ;
-	position:relative;
-}
-
-.protfolio .heading p{
-	padding-bottom:41px;
-	color:#242424
-}
-.protfolio h4{
-	font-weight:700;
-}
-.portfolioFilter{
-	display:block;
-	margin:0 auto;
-	text-align: center;
-}
-
-.portfolioFilter ul{
-	margin:0 auto;
-	text-align:center;
-	display:block;
-	margin-bottom:60px;
-}
-.portfolioFilter ul li{
-	display:inline-block;
-	margin:0 -2px;
-	position:relative;
-}
-	.portfolioFilter ul li:after {
-	content:"";
-	display:block;
-	width:1px;
-	height:10px;
-	background:#938b94;
-	position:absolute;
-	right:0;
-	top:50%;
-	margin-top:-5px;
-}
-	.portfolioFilter ul li.last:after {
-	background:#fff;
-}
-.portfolioFilter ul li a{
-	padding:16px 30px;
-	font-size:11px;
-	line-height:15px;
-	font-weight:bold;
-	color:#6f6470;
-	text-transform:uppercase;
-	display:block;
-	text-decoration:none;
-	border-right:none;
-	letter-spacing:2px;
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-}
-
-.portfolioFilter ul li a:hover{
-	border-color:#cfcfcf;
-	color:#000;
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-}
-
-.portfolioFilter ul li a.current{
-	border:solid 1px #fff;
-	color:#000;
-}
-ul.portfolioContainer{
-	display:block;
-	padding:0px;
-	margin-bottom:0;
-	list-style-type:none;
-}
-ul.portfolioContainer li{
-	display:block;
-	height:auto;
-	padding:0px;
-	margin:0px;
-	cursor:pointer;
-	border:1px solid #fff;
-	width:24.8%;
-}
-ul.portfolioContainer li .lightCon{
-	display:block;
-	margin:0px;
-	position:relative;
-	overflow:hidden;
-}
-ul.portfolioContainer li img{
-	 width:100% !important;
-	 height:auto;
-	 display:block;
-}
-
-span.hoverBox{
-	visibility:hidden;
-	width:100%;
-	height:100%;
-	position: absolute;
-	left:0px;
-	bottom: 0px;
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-
-	background: rgba(76, 64, 78, 0);
-
-}
-ul.portfolioContainer li:hover span.hoverBox{
-	visibility:visible;
-	left:0px;
-	bottom: 0px;
-
-	background: rgba(76, 64, 78, 0.9);
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-}
-
-span.hoverBox a{
-	line-height:54px;
-}
-
-span.hoverBox .smallIcon{
-	width: 74x;
-	margin: 0px auto;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -80px;
-	margin-top: -37px;
-}
-
-span.hoverBox .zoom{
-	visibility:hidden;
-	width:74px;
-	height:74px;
-	border:1px solid #fff;
-	color:#fff;
-	position: relative;
-	left:-180%;
-	background:url(../images/plus-icon.png) 50% 50% no-repeat;
-	margin-left:47px;
-	/*top:40%;*/
-	text-align:center;
-	line-height:70px;
-	display: block;
-	float: left;
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-}
-ul.portfolioContainer li:hover span.hoverBox .zoom{
-	visibility:visible;
-	left:0;
-	padding-top:7px;
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-}
-span.hoverBox .zoom i {
-	font-size:0;
-	text-indent:-100000px;
-}
-
-span.hoverBox .linKed{
-	visibility:hidden;
-	width:54px;
-	height:54px;
-	background:#313131;
-	color:#fff;
-	position: relative;
-	right:-180%;
-	/*top:40%;*/
-	text-align:center;
-	line-height:52px;
-	display: block;
-	float: right;
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-
-	-webkit-border-radius: 50%;
-	border-radius: 50%;
-}
-ul.portfolioContainer li:hover span.hoverBox .linKed{
-	visibility:visible;
-	right:0%;
-	padding-top:7px;
-
-	transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-}
-.isotope-item {
-    z-index: 2;
-}
-.isotope-hidden.isotope-item {
-    pointer-events: none;
-    z-index: 1;
-}
-.isotope,
-.isotope .isotope-item {
-  /* change duration value to whatever you like */
-
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-}
-.isotope {
-    -webkit-transition-property: height, width;
-    -moz-transition-property: height, width;
-    transition-property: height, width;
-}
-.isotope .isotope-item {
-	padding:0;
-
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
-    transition-property: transform, opacity;
-}
-
-.abc{
-	position: absolute;
-	width: 782px;
-	height: auto;
-	top: 20%;
-	left: 0;
-	right: 0;
-	z-index: 99999;
-	margin: 0 auto;
-}
-.abc #pbImage{
-	position:static !important;
-}
-
-#pbCaption{
-	display:block;
-	background:none !important;
-}
-#pbBottom{
-	position: relative !important;
-	left: 26.1% !important;
-	bottom: 0px !important;
-	width: 100% !important;
-	margin-left: -26% !important;
-	padding: 0px !important;
-	height:80px !important;
-
-	display: block;
-	background-color: rgba(24,27,34,1);
-	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#B0000000, EndColorStr=#B0000000);
-}
-#pbCloseBtn{
-	position:absolute !important;
-}
-
-/*----------------------------------------------------
 	6. Skill & Expert Style
 ------------------------------------------------------*/
 .skillset {
-	background:#fff;
-	display:table;
+	background:#f8f8f8;
 	width:100%;
 }
 .skillset .container{
-	padding-top:66px ;
-	padding-bottom:64px ;
-}
-.skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:53px;
-	width:100%;
-	background:#e2e1e2;
-	height:7px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
+	padding-top:66px;
+	padding-bottom:30px;
 }
 
-.skillbar-title {
-	position:absolute;
-	top:-27px;
-	left:0;
-	font-weight:bold;
-	font-size:13px;
-	line-height:27px;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	color:#5b4c5c;
-}
-
-.skillbar-title span {
-	display:block;
-}
-
-.skillbar-bar {
-	height:7px;
-	width:0px;
-	background:#e88988;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	top:-24px;
-	font-size:14px;
-	color:#796f7a;
-	margin-left:-20px;
+.skillset ul{
+	margin:0px;
+	margin-bottom: 0px;
+	list-style-type: square;
+	text-align: center;
+  list-style-position: inside
 }
 
 /*----------------------------------------------------
@@ -878,77 +555,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	background:#f8f8f8;
 }
 .contact .container{
-	padding-top:75px;
+	padding-top:40px;
 	padding-bottom:0;
-}
-.mapArea{
-	height:462px;
-	overflow:hidden;
-	width:100%;
-	margin:0;
-	background:#3b323c;
-}
-.mapArea iframe{
-	width:100%;
-	height:100%;
-}
-#map img { max-width: none; }
-
-
-.contactDetails{
-	background:#fff;
-}
-.contactDetails .container{
-	padding-top:69px ;
-	padding-bottom:50px ;
-	text-align:center;
-}
-
-.conForm input,
-.conForm textarea {
-	float:none;
-	display:inline-block;
-}
-.conForm input{
-	background:#fafafa;
-	border-bottom:solid 2px #ccc1cd !important;
-	color:#805183;
-	text-transform:uppercase;
-	padding:15px 30px;
-	border:none;
-	margin-bottom:30px;
-	outline:none;
-}
-
-.conForm textarea{
-	background:#fafafa;
-	color:#805183;
-	text-transform:uppercase;
-	border-bottom:solid 2px #ccc1cd !important;
-	padding:15px 30px;
-	border:none;
-	margin-bottom:40px;
-	outline:none;
-	height:185px;
-}
-
-.conForm .submitBnt{
-	background:none;
-	font-family: 'Montserrat', sans-serif;
-	color:#372d38;
-	font-size:12px;
-	letter-spacing:2px;
-	text-transform:uppercase;
-	font-weight:400;
-	text-align:center;
-	margin:0px;
-	border:2px solid #746c75 !important;
-	padding:0;
-	width:322px;
-	height:52px;
-}
-.conForm .submitBnt:hover{
-	color:#000;
 }
 
 .textGroup{
@@ -956,21 +564,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	display: inline-block;
 	padding-left:0px !important;
 }
-
-#success_page{
-	color: #00bdbd;
-	font-weight: 500;
-}
-.error_message{
-	color: #ff675f;
-	padding-bottom: 15px;
-	font-weight: 500;
-}
-#success_page h3{
-	font-size:17px;
-	color: #00bdbd;
-}
-
 
 .contactInfo{
 	background:#101010 url(../images/contact-bg.jpg) repeat 0 0 fixed;
@@ -991,39 +584,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .contactInfo .container{
 	position:relative;
 	z-index:2;
-}
-
-#message {
-	margin-bottom:30px;
-}
-.cinfoBox{
-	padding-bottom:40px;
-}
-.cinfoBox span.infoIcon{
-	display:block;
-	border:solid 2px #fff;
-	margin:0 auto;
-	margin-bottom:40px;
-	font-size:60px;
-	line-height:145px;
-	width:150px;
-	height:150px;
-
-	-webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-.cinfoBox p{
-	font-weight:600;
-	font-size:14px;
-	color:#fff;
-	padding-bottom:0px;
-}
-.cinfoBox p a{
-	color:#fff;
-	text-decoration:none;
-}
-.cinfoBox p a:hover{
-	color:#ff554e;
 }
 
 /*----------------------------------------------------
@@ -1335,6 +895,11 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.heading {
 		padding-bottom:40px;
 	}
+
+	.heading-aboutme {
+		padding-bottom:0px;
+	}
+
 	.upbox{
 		transform: translate(0px, -70px);
 		-ms-transform: translate(0px, -70px); /* IE 9 */
@@ -1372,7 +937,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	.skillbar:last-child {
 		margin-bottom:0;
 	}
-
 
 }
 
@@ -1437,3 +1001,86 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 
 	}
 }
+
+/* Alden's CSS*/
+
+.btn-space{
+	margin-left:50px;
+}
+
+.img-rounded{
+	border-radius: 50%;
+}
+
+.profile-photo{
+	height: 100%;
+	width: 100%;
+	margin-top: -30px;
+}
+
+/* CSS For About Me - Profile Section*/
+.myexperties {
+	background:#f8f8f8;
+}
+.myexperties .container{
+	padding-top:67px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+.about-style1 {
+	padding: 0px 63px 0px 0;
+	text-align:right;
+	font-family:'Crimson Text',serif;
+	font-size:21px;
+	line-height:24px;
+	color:#5b4c5c;
+	font-style:italic;
+}
+.about-style2 {
+	border-left:2px solid #ada5ad;
+	padding:0 0 0 69px;
+	margin-bottom:100px;
+}
+.about-style2 p {
+	padding-bottom:0;
+}
+.about-style2 h4 {
+	font-size:14px;
+	font-weight:300;
+	color:#UIzards;
+	line-height:normal;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.about-style2 h5 {
+	font-family: 'Crimson Text', serif;
+	color:#5b4c5c;
+	font-size:18px;
+	font-style:italic;
+	font-weight:400;
+}
+
+.profile-container {
+	padding-top: 30px;
+}
+/* CSS For About Me - Profile Section*/
+
+/*Presentation Style*/
+.presentation {
+	background:#fff;
+	display:table;
+	width:100%;
+}
+
+.presentation .container{
+	padding-top:66px ;
+	padding-bottom:64px ;
+}
+
+.presentation ul{
+	margin:0 auto;
+	margin-bottom:0px;
+	text-align:left;
+	list-style-type:square;
+}
+/*End Presentation Style*/
