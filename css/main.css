@@ -256,49 +256,7 @@ header{
 	font-size:0;
 	line-height:0;
 }
-.isStuck .logo{
-	background:url(../images/logo.png) no-repeat 0 0;
-}
-.navwrapper .container{
-	padding:0;
-	width:auto;
-}
-.navArea {
-	position:relative;
-}
-.navbar.navbar-inverse.navbar-static-top a.closeMenu {
-	width:32px;
-	height:32px;
-	border:1px solid #fff;
-	text-align:center;
-	color:#fff;
-	font-weight:normal;
-	position:absolute;
-	right:0;
-	top:20px;
-	padding:0;
-	margin:
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	border-radius:50%;
-}
-.navbar.navbar-inverse.navbar-static-top a.closeMenu:hover {
-	background:none;
-}
-.isStuck .navbar.navbar-inverse.navbar-static-top a.closeMenu:hover{
-	background:none;
-}
-.closeMenu i {
-	font-size:14px;
-	line-height:32px;
-	color:#fff;
-}
-.isStuck .navbar.navbar-inverse.navbar-static-top a.closeMenu {
-	border-color:#000;
-}
-.isStuck .navbar.navbar-inverse.navbar-static-top a.closeMenu i {
-	color:#000;
-}
+
 .navbar-header{
 	display:none;
 }
@@ -310,119 +268,14 @@ header{
 }
 .navbar-nav > li{
 	float: none;
+	text-align: center;
 	display: inline-block;
 }
 .navbar-nav{
-	margin: 0 auto;
 	text-align: center;
 	float: none;
 }
 
-.navbar-toggle{
-	margin-top:14px;
-}
-
-.navbar-wrapper {
-  margin-top:0px;
-  height:80px;
-  position: relative;
-  z-index: 15;
-}
-.navbar-wrapper .container{
-	padding:0px;
-}
-
-.navbar-collapse{
-	padding:0;
-}
-.navbar-collapse.in{
-	max-height:100%;
-}
-
-.navbar.navbar-inverse.navbar-static-top {
-  margin:0px auto;
-  background:none;
-  color:#c3c8d6;
-  border:none;
-  font-family: 'Open Sans', sans-serif;
-  font-size:14px;
-  font-weight:600;
-  text-transform:uppercase;
-}
-.navbar.navbar-inverse.navbar-static-top a{
-  color:#fff;
-  padding:31px 16px;
-  line-height:18px;
-  text-align:center;
-}
-.navbar.navbar-inverse.navbar-static-top a:hover{
-  background:none;
-  color:#fff;
-}
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
-  background: none;
-  color:#fff !important;
-}
-.navbar-inverse .navbar-nav>.active>a:hover {
-  color:#fff;
-}
-
-.hideClass{
-	display:none;
-}
-.isStuck .navbar-inverse .navbar-nav>.active>a, .isStuck .navbar-inverse .navbar-nav>.active>a:focus{
-  background: #181a1c;
-  color:#fff ;
-}
-.isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
-  background:#181a1c;
-  color:#fff;
-}
-.isStuck .navbar.navbar-inverse.navbar-static-top a{
-  color:#000;
-}
-.nav-icon {
-	width:42px;
-	height:32px;
-	text-align:center;
-	background:#5b4c5c;
-	position:absolute;
-	left:50%;
-	margin-left:-21px;
-	top:36px;
-	z-index:999;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	border-radius:3px;
-}
-.nav-icon i {
-	color:#fff;
-	line-height:32px;
-	font-size:24px;
-	font-weight:normal;
-}
-.default-menu {
-	margin-top:-80px;
-}
-.stuckMenu,
-.navbar-wrapper{
-	-o-transition: all .5s;
-    -ms-transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-
-	background: transparent;
-}
-.isStuck{
-	background:#fff ;
-
-	-o-transition: all .5s;
-    -ms-transition: all .5s;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-}
 /*----------------------------------------------------
 	4. About me Style
 ------------------------------------------------------*/
@@ -485,8 +338,8 @@ header{
 	margin:0px;
 	margin-bottom: 0px;
 	list-style-type: square;
-	text-align: center;
-  list-style-position: inside
+	text-align: left;
+  list-style-position: inside;
 }
 
 /*----------------------------------------------------
@@ -710,17 +563,6 @@ header{
 	.proPic{
 		text-align:center;
 	}
-
-	.navbar-inverse .navbar-toggle .icon-bar{
-		background:#000;
-	}
-	.navbar-inverse .navbar-toggle:hover .icon-bar,
-	.navbar-inverse .navbar-toggle.active .icon-bar{
-		background:#fff;
-	}
-	.navbar-inverse .navbar-toggle.active {
-		background-color:#11141c;
-	}
 }
 
 
@@ -756,71 +598,14 @@ header{
 	.conForm input.col-lg-6 {
 		width: 48.5%;
 	}
-	.navbar.navbar-inverse.navbar-static-top a {
-		padding-left:12px;
-		padding-right:12px;
-	}
-	.navbar.navbar-inverse.navbar-static-top a.closeMenu {
-		width:28px;
-		height:28px;
-		top:25px;
-	}
 	.closeMenu i {
 		line-height:25px;
 	}
 }
-
-
-@media screen and (max-width: 767px) {
-	.navbar-wrapper .container,
-	.navwrapper .container{
-		width:100%;
-	}
-		.navbar-nav{
-		position: absolute;
-		width: 100%;
-		left: 0;
-		color:#fff;
-		background:#181a1c;
-		text-align:center;
-	}
-	.nav > li > a {
-		display:block;
-	}
-	.navbar.navbar-inverse.navbar-static-top a:hover{
-		background:none;
-	}
-
-	.navbar-nav > li{
-		float:none;
-		display:block;
-	}
-	.navbar-nav > li> a{
-		padding:15px 0 !important;
-		color:#fff !important;
-	}
-	.navbar-nav > li> a:hover{
-		background:#000 !important;
-	}
-
 	ul.portfolioContainer li.col-xs-6{
 		width:49%;
 		min-height: 85px;
 	}
-	.navbar-toggle {
-		margin-top: 23px;
-	}
-	.navbar .container{
-		padding:0;
-	}
-	.isStuck.navbar-wrapper .navArea{
-		display:block;
-	}
-	.navbar-header .navbar-brand{
-		float:right;
-	}
-
-
 }
 
 
@@ -849,12 +634,6 @@ header{
 	.exCon{
 		margin-left:0px;
 	}
-	/*.stuckMenu .closeMenu {
-		display:none;
-		left:10px;
-		top:24px !important;
-		right:inherit;
-	}*/
 	.closeMenu,
 	.nav-icon{
 		display:none;
@@ -864,9 +643,6 @@ header{
 	}
 	ul.navbar-nav li a{
 		display:block;
-	}
-	.navbar.navbar-inverse.navbar-static-top a {
-		padding:10px 0;
 	}
 	.about{
 		border-right:none;
@@ -887,7 +663,7 @@ header{
 }
 
 
-@media screen and (max-width: 650px) {
+/*@media screen and (max-width: 650px) {
 
 	#wrapper{
 		top: 200px !important;
@@ -903,8 +679,8 @@ header{
 	.upbox{
 		transform: translate(0px, -70px);
 		-ms-transform: translate(0px, -70px); /* IE 9 */
-		-webkit-transform: translate(0px, -70px); /* Safari and Chrome */
-	}
+		/*-webkit-transform: translate(0px, -70px); /* Safari and Chrome */
+	/*}
 	.bannerText {
 		padding-top:15px;
 		padding-bottom:15px;
@@ -938,7 +714,7 @@ header{
 		margin-bottom:0;
 	}
 
-}
+}*/
 
 
 @media screen and (max-width: 480px) {
@@ -1084,3 +860,17 @@ header{
 	list-style-type:square;
 }
 /*End Presentation Style*/
+
+/*Some Navbar Stuff*/
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+/*End Navbar Stuff*/
