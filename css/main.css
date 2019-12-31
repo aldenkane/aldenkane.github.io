@@ -260,10 +260,6 @@ header a{
 /*----------------------------------------------------
  	3.1 Menu Style
 ------------------------------------------------------*/
-.isStuck{
-    left:0px;
-    width:100%;
-}
 .menu{
 	margin-top:15px;
     left: 0;
@@ -307,7 +303,6 @@ header a{
 	display:block;
 	border:1px solid #bab4bb;
 }
-
 .aboutus iframe {
 	padding:7px;
 	display:block;
@@ -316,7 +311,6 @@ header a{
 .aboutus .heading p{
 	padding-bottom:41px;
 }
-
 .aboutus h4 {
 	font-size:16px;
 	color:#5b4c5c;
@@ -594,23 +588,6 @@ header a{
 		padding-top:58px;
 	}
 }
-
-
-@media screen and (max-width: 991px) {
-
-	.bannerText h1{
-		font-size:65px;
-		line-height:71px;
-	}
-	.bannerText h2{
-		font-size:28px;
-	}
-	.proPic{
-		text-align:center;
-	}
-}
-
-
 
 
 @media screen and (max-width: 810px) {
