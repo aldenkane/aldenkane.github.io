@@ -49,9 +49,9 @@ body {
 }
 a {
 	text-decoration:none;
-	color:#fff;
 	outline:none;
 }
+
 img {
 	max-width:100%;
 }
@@ -216,6 +216,26 @@ header{
 	padding:0 ;
 	z-index:999 ;
 }
+
+.bannerText-Port{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:50%;
+	text-align:center;
+	margin-top:15px;
+	padding:0 ;
+	z-index:999 ;
+}
+
+.bannerText-Port h1{
+	text-transform:uppercase;
+	line-height:normal;
+	font-weight:300;
+	color:#fff;
+	letter-spacing:4px;
+}
+
 .bannerText h1{
 	text-transform:uppercase;
 	line-height:normal;
@@ -233,6 +253,10 @@ header{
 	letter-spacing:2px;
 }
 
+header a{
+	color: #fff;
+}
+
 /*----------------------------------------------------
  	3.1 Menu Style
 ------------------------------------------------------*/
@@ -241,22 +265,13 @@ header{
     width:100%;
 }
 .menu{
-	margin-top:34px;
+	margin-top:15px;
     left: 0;
     position: absolute;
     right: 0;
     top: 0;
     z-index: 9999;
 }
-.logo{
-	float:left;
-	background:url(../images/logo-2.png) no-repeat 0 0;
-	width:123px;
-	height:80px;
-	font-size:0;
-	line-height:0;
-}
-
 .navbar-header{
 	display:none;
 }
@@ -284,8 +299,8 @@ header{
 	text-align:left;
 }
 .aboutus .container{
-	padding-top:80px ;
-	padding-bottom:47px ;
+	padding-top:60px ;
+	padding-bottom:40px ;
 }
 .aboutus img {
 	padding:7px;
@@ -330,8 +345,8 @@ header{
 	width:100%;
 }
 .skillset .container{
-	padding-top:66px;
-	padding-bottom:30px;
+	padding-top:60px;
+	padding-bottom:40px;
 }
 
 .skillset ul{
@@ -395,8 +410,34 @@ header{
 	background:#fff;
 }
 .educationdiploma .container{
-	padding-top:65px ;
+	padding-top:60px ;
 	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+
+/*----------------------------------------------------
+	8.1 Portfolio 1 Style
+------------------------------------------------------*/
+
+.port-1 {
+	background:#fff;
+}
+.port-1 .container{
+	padding-top:20px;
+	padding-bottom:0;
+	margin-bottom:-20px;
+}
+
+/*----------------------------------------------------
+	8.2. Portfolio 2 Style
+------------------------------------------------------*/
+
+.port-2 {
+	background:#f8f8f8;
+}
+.port-2 .container{
+	padding-top:20px;
+	padding-bottom:0;
 	margin-bottom:-20px;
 }
 
@@ -408,7 +449,7 @@ header{
 	background:#f8f8f8;
 }
 .contact .container{
-	padding-top:40px;
+	padding-top:20px;
 	padding-bottom:0;
 }
 
@@ -446,12 +487,12 @@ header{
 	background:#fff;
 }
 .footer .container{
-	padding:84px 0 0;
+	padding:40px 0 0;
 }
 
 .footer ul{
 	margin:0 auto;
-	margin-bottom:62px;
+	padding-bottom:40px;
 	text-align:center;
 	list-style-type:none;
 }
@@ -504,6 +545,10 @@ header{
 .gototop i {
 	color:#817a82;
 	line-height:35px;
+}
+
+.to-top-button{
+	margin-top:-30px;
 }
 
 /* Preloader */
@@ -662,61 +707,6 @@ header{
 	}
 }
 
-
-/*@media screen and (max-width: 650px) {
-
-	#wrapper{
-		top: 200px !important;
-	}
-	.heading {
-		padding-bottom:40px;
-	}
-
-	.heading-aboutme {
-		padding-bottom:0px;
-	}
-
-	.upbox{
-		transform: translate(0px, -70px);
-		-ms-transform: translate(0px, -70px); /* IE 9 */
-		/*-webkit-transform: translate(0px, -70px); /* Safari and Chrome */
-	/*}
-	.bannerText {
-		padding-top:15px;
-		padding-bottom:15px;
-	}
-	.bannerText h1 {
-		font-size: 42px;
-		line-height: 48px;
-	}
-	.bannerText h3 {
-		font-size: 28px;
-		line-height: normal;
-	}
-	.bannerText h2 {
-		font-size: 18px;
-		line-height:24px;
-	}
-	.aboutus h3 {
-		padding-top:20px;
-	}
-	.expertiesico {
-		padding:0;
-		border:none;
-		text-align:center;
-		margin-bottom:30px;
-	}
-	.expertiesdesc {
-		padding:0;
-		margin-bottom:50px;
-	}
-	.skillbar:last-child {
-		margin-bottom:0;
-	}
-
-}*/
-
-
 @media screen and (max-width: 480px) {
 	.bannerText h1 {
 		font-size:32px;
@@ -799,7 +789,7 @@ header{
 	background:#f8f8f8;
 }
 .myexperties .container{
-	padding-top:67px ;
+	padding-top:60px ;
 	padding-bottom:0 ;
 	margin-bottom:-20px;
 }
@@ -815,7 +805,7 @@ header{
 .about-style2 {
 	border-left:2px solid #ada5ad;
 	padding:0 0 0 69px;
-	margin-bottom:100px;
+	margin-bottom:40px;
 }
 .about-style2 p {
 	padding-bottom:0;
@@ -849,8 +839,8 @@ header{
 }
 
 .presentation .container{
-	padding-top:66px ;
-	padding-bottom:64px ;
+	padding-top:60px ;
+	padding-bottom:40px ;
 }
 
 .presentation ul{
@@ -874,3 +864,88 @@ a:active {
   text-decoration: none;
 }
 /*End Navbar Stuff*/
+
+/*PORTFOLIO*/
+.port-right {
+	border-left:2px solid #ada5ad;
+	padding:0px 0px 0px 15px;
+	text-align:right;
+	font-family:'Crimson Text',serif;
+	font-size:21px;
+	line-height:24px;
+	color:#5b4c5c;
+	font-style:italic;
+}
+.port-left {
+	padding:0px 20px 0px 0px;
+	margin-bottom:40px;
+}
+.port-left p {
+	padding-bottom:0;
+}
+
+.port-left ul {
+	margin:0px;
+	margin-bottom: 0px;
+	list-style-type: square;
+	text-align: left;
+	list-style-position: outside;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.port-left h4 {
+	font-size:14px;
+	font-weight:300;
+	color:#UIzards;
+	line-height:normal;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.port-left h5 {
+	font-family: 'Crimson Text', serif;
+	color:#5b4c5c;
+	font-size:18px;
+	font-style:italic;
+	font-weight:400;
+}
+.port-frame{
+	border: 2px solid #ada5ad;
+}
+
+.port-video{
+	padding-right:12px;
+	margin-right:0px;
+	/* border: 2px solid #ada5ad; */
+}
+
+.directory{
+	background:#ADC1D6;
+	width:100%;
+	font-weight: 400;
+	color:#fff;
+	height: 80px;
+}
+
+.directory a{
+	color:#fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:10px;
+}
+
+.directory a:hover{
+	color:#2a6496;
+}
+
+.directory table, th, tr, td{
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Montserrat', sans-serif;
+	font-size:10px;
+}
+
+.port-top{
+	height:100px;
+	background:#7287BA;
+}
