@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        input {
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Power Calculator</h2>
+    <label for="powerPerSubcarrier">Power per Subcarrier (dBm/Hz):</label>
+    <input type="number" id="powerPerSubcarrier" step="any" placeholder="Enter power per subcarrier">
+    <br>
+    <label for="subcarrierSpacing">Subcarrier Spacing (kHz):</label>
+    <input type="number" id="subcarrierSpacing" step="any" placeholder="Enter subcarrier spacing">
+    <br>
+    <button onclick="calculatePower()">Calculate Power per Unit Bandwidth</button>
+    <br>
+    <p id="result"></p>
+
+    <script>
+        function calculatePower() {
+            var powerPerSubcarrier = parseFloat(document.getElementById("powerPerSubcarrier").value);
+            var subcarrierSpacing = parseFloat(document.getElementById("subcarrierSpacing").value);
+
+            if (isNaN(powerPerSubcarrier) || isNaN(subcarrierSpacing)) {
+                alert("Please enter valid numbers for both inputs.");
+                return;
+            }
+
+            var bandwidth = 200; // Assume 200 kHz bandwidth
+            var powerPerBW = powerPerSubcarrier + 10 * Math.log10(bandwidth / subcarrierSpacing);
+
+            document.getElementById("result").innerHTML = "Power per Unit Bandwidth: " + powerPerBW.toFixed(2) + " dBm/200kHz";
+        }
+    </script>
+</body>
+
+</html>
